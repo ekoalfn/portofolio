@@ -72,7 +72,7 @@
   <nav class="navbar navbar-expand-lg classic transparent position-absolute navbar-dark">
     <div class="container flex-lg-row flex-nowrap align-items-center">
       <div class="navbar-brand w-100">
-        <a href="https://cahyosaputro.my.id">
+        <a href="https://eko.cahyosaputro.my.id">
             <div class="d-flex align-items-center">
                 <img class=" w-9 h-9 object-cover rounded-circle logo-light" src="./web/img/photos/eko-upwork.png" alt="" style="margin-right: 8px;">
                 <span class="h3 mt-0 mb-0 ml-4 text-white logo-light">Muhamad Eko Alfianto</span>

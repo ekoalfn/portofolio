@@ -24,11 +24,11 @@ class WebController extends Controller
 
         SEOTools::setTitle('Senior Full Stack Developer| Muhamad Eko Alfianto', false);
         SEOTools::setDescription('Jasa Pembuatan Website dan Aplikasi Mobile dan IOS Semarang & Salatiga');
-        SEOTools::opengraph()->setUrl('https://cahyosaputro.my.id');
-        SEOTools::setCanonical('https://cahyosaputro.my.id');
+        SEOTools::opengraph()->setUrl('https://eko.cahyosaputro.my.id');
+        SEOTools::setCanonical('https://eko.cahyosaputro.my.id');
         SEOTools::opengraph()->addProperty('type', 'articles');
 
-        SEOTools::jsonLd()->addImage('https://cahyosaputro.my.id/web/img/yan-afriyoko.png');
+        SEOTools::jsonLd()->addImage('https://eko.cahyosaputro.my.id/web/img/yan-afriyoko.png');
         $blogs = Blog::with('categoryBlogs', 'users')->where('publish', 1)->latest()->take(5)->get();
         
         
@@ -98,10 +98,10 @@ class WebController extends Controller
     {
         SEOTools::setTitle('portofolio - Senior Full Stack Developer| Muhamad Eko Alfianto', false);
         SEOTools::setDescription('Jasa Pembuatan Website dan Aplikasi Mobile dan IOS Semarang Salatiga');
-        SEOTools::opengraph()->setUrl('https://cahyosaputro.my.id');
-        SEOTools::setCanonical('https://cahyosaputro.my.id');
+        SEOTools::opengraph()->setUrl('https://eko.cahyosaputro.my.id');
+        SEOTools::setCanonical('https://eko.cahyosaputro.my.id');
         SEOTools::opengraph()->addProperty('type', 'articles');
-        SEOTools::jsonLd()->addImage('https://cahyosaputro.my.id/web/img/photos/fullstack-developer-dimas.png');
+        SEOTools::jsonLd()->addImage('https://eko.cahyosaputro.my.id/web/img/photos/fullstack-developer-dimas.png');
 
         $portfolios = [
              [
