@@ -78,8 +78,8 @@
           <div class="card shadow-lg bg-blue-card w-100 d-flex flex-column" style="min-height: 300px;">
             <div class="card-body d-flex flex-column justify-content-center align-items-center">
               <img src="./web/img/icons/lineal/browser.svg" class="svg-inject icon-svg icon-svg-sm text-white mb-3" alt="VueJS Development Icon" />
-              <h4 class="text-white">VueJS Development</h4>
-              <p class="mb-2 text-white">I have deep experience in software development with the platform Vue.js, also Express.js, React, and Node.js.</p>
+              <h4 class="text-white">NextJS Development</h4>
+              <p class="mb-2 text-white">I have deep experience in software development with the platform NEXT.js, also Express.js, React, and Node.js.</p>
             </div>
           </div>
         </div>
