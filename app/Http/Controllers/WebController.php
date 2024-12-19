@@ -22,7 +22,7 @@ class WebController extends Controller
     //   Artisan::call('config:clear');
 
 
-        SEOTools::setTitle('Senior Full Stack Developer| Cahyo Saputro', false);
+        SEOTools::setTitle('Senior Full Stack Developer| Muhamad Eko Alfianto', false);
         SEOTools::setDescription('Jasa Pembuatan Website dan Aplikasi Mobile dan IOS Semarang & Salatiga');
         SEOTools::opengraph()->setUrl('https://cahyosaputro.my.id');
         SEOTools::setCanonical('https://cahyosaputro.my.id');
@@ -36,8 +36,8 @@ class WebController extends Controller
              [
                 'title' => "Simtaka Apps",
                 'description' => "Laravel | VueJs",
-                'image' => "./web/img/portofolio/cahyo/simtaka.png",
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/simtaka.png",
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web'
                 ]
@@ -45,8 +45,8 @@ class WebController extends Controller
              [
                 'title' => "E bpn",
                 'description' => "Php | Codeigniter | Bootstrap",
-                'image' => "./web/img/portofolio/cahyo/ebpn.png", 
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/e-bpn.png", 
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web',
                     'mobile'
@@ -55,8 +55,8 @@ class WebController extends Controller
              [
                 'title' => "Inilah News Portal",
                 'description' => "Laravel | NextJs | RESTful API ",
-                'image' => "./web/img/portofolio/cahyo/inilah.png",
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/inilah.png",
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web'
                 ]
@@ -64,8 +64,8 @@ class WebController extends Controller
              [
                 'title' => "Javabica Online Shop",
                 'description' => "Laravel | Nuxt | RESTful API ",
-                'image' => "./web/img/portofolio/cahyo/javabica.png", 
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/javabica.png", 
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web'
                 ]
@@ -73,8 +73,8 @@ class WebController extends Controller
             [
                 'title' => "Nifty Educate Blockchain Application",
                 'description' => "Laravel | Web3 | ReactJs",
-                'image' => "./web/img/portofolio/cahyo/niftyeducate.png",
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/niftyeducat.png",
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web'
                 ]
@@ -82,8 +82,8 @@ class WebController extends Controller
             [
                 'title' => "Sidokoe",
                 'description' => "Laravel | Tailwind | PHP",
-                'image' => "./web/img/portofolio/cahyo/sidokoe.png", 
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/sidokoe.png", 
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web',
                     'mobile'
@@ -96,7 +96,7 @@ class WebController extends Controller
 
     public function portofolio()
     {
-        SEOTools::setTitle('portofolio - Senior Full Stack Developer| Cahyo Saputro', false);
+        SEOTools::setTitle('portofolio - Senior Full Stack Developer| Muhamad Eko Alfianto', false);
         SEOTools::setDescription('Jasa Pembuatan Website dan Aplikasi Mobile dan IOS Semarang Salatiga');
         SEOTools::opengraph()->setUrl('https://cahyosaputro.my.id');
         SEOTools::setCanonical('https://cahyosaputro.my.id');
@@ -107,8 +107,8 @@ class WebController extends Controller
              [
                 'title' => "Inilah News Portal",
                 'description' => "Laravel | NextJs | RESTful API ",
-                'image' => "./web/img/portofolio/cahyo/inilah.png",
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/inilah.png",
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web',
                     'mobile'
@@ -117,8 +117,8 @@ class WebController extends Controller
              [
                 'title' => "Javabica Online Shop",
                 'description' => "Laravel | Nuxt | RESTful API ",
-                'image' => "./web/img/portofolio/cahyo/javabica.png", 
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/javabica.png", 
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web',
                     'mobile'
@@ -127,8 +127,8 @@ class WebController extends Controller
             [
                 'title' => "Road To Virtuosity",
                 'description' => "Laravel | Bootstrap | PHP",
-                'image' => "./web/img/portofolio/cahyo/rtv.png",
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/rtv.png",
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web'
                 ]
@@ -136,8 +136,8 @@ class WebController extends Controller
             [
                 'title' => "Nifty Educate Blockchain Application",
                 'description' => "Laravel | Web3 | ReactJs",
-                'image' => "./web/img/portofolio/cahyo/niftyeducate.png", 
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/niftyeducat.png", 
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web'
                 ]
@@ -145,8 +145,8 @@ class WebController extends Controller
             [
                 'title' => "Sidokoe",
                 'description' => "Laravel | VueJs | Inertia",
-                'image' => "./web/img/portofolio/cahyo/sidokoe.png", 
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/sidokoe.png", 
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web',
                 ]
@@ -154,8 +154,8 @@ class WebController extends Controller
             [
                 'title' => "Simtaka",
                 'description' => "Laravel | VueJs | Tailwind",
-                'image' => "./web/img/portofolio/cahyo/simtaka.png", 
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/simtaka.png", 
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web',
                 ]
@@ -163,8 +163,8 @@ class WebController extends Controller
             [
                 'title' => "Simperkab",
                 'description' => "Laravel | Openlayer | Tailwind",
-                'image' => "./web/img/portofolio/cahyo/simperkab.png", 
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/simperkab.png", 
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web',
                 ]
@@ -172,8 +172,8 @@ class WebController extends Controller
             [
                 'title' => "E-BPN",
                 'description' => "Codeigniter | Bootstrap | Restful API",
-                'image' => "./web/img/portofolio/cahyo/ebpn.png", 
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/e-bpn.png", 
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web',
                 ]
@@ -181,8 +181,8 @@ class WebController extends Controller
             [
                 'title' => "Inowfashion",
                 'description' => "Laravel | VueJs | Inertia",
-                'image' => "./web/img/portofolio/cahyo/inowfashion.png", 
-                'url' => "https://www.upwork.com/freelancers/~01a593edbb46b2e4d1",
+                'image' => "./web/img/portofolio/eko/inowfashion.png", 
+                'url' => "https://www.upwork.com/freelancers/~018545f2a9998ff319",
                 'category' => [
                     'web',
                 ]

@@ -4,43 +4,50 @@
 
 <!--<section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 bg-content text-white" data-image-src="./web/img/photos/bg13.jpg">-->
     
-<section class="wrapper image-wrapper bg-blue-cahyo bg-content text-white">
-  <div class="container pt-12 pt-md-14 pb-14 pb-md-16"  style="z-index: 5; position:relative">
+<section class="wrapper image-wrapper bg-blue-eko bg-content text-white">
+  <div class="container py-12 py-md-14 pb-md-16" style="z-index: 5; position:relative;">
     <div class="row gy-10 gy-md-13 gy-lg-0 align-items-center">
-      <div class="col-md-8 col-lg-5 d-flex position-relative mx-auto" data-cues="slideInDown" data-group="header">
-        <div class="img-mask mask-1" style="width: 500px"><img src="./web/img/photos/cahyo-upwork.png" srcset="./web/img/photos/cahyo-upwork.png 2x" alt="" /></div>
+
+      <!-- Image Section -->
+      <div class="col-md-8 col-lg-5 position-relative mx-auto" data-cues="slideInDown" data-group="header">
+        <div class="img-mask mask-1" style="width: 500px;">
+          <img src="./web/img/photos/eko-upwork.png" srcset="./web/img/photos/eko-upwork.png 2x" alt="Eko Upwork Profile" class="img-fluid rounded shadow"/>
+        </div>
         <div class="card shadow-lg position-absolute" style="bottom: 10%; right: 2%;">
           <div class="card-body py-4 px-5">
-            <div class="d-flex flex-row align-items-center">
-              <div>
-                <img src="./web/img/icons/lineal/check.svg" class="svg-inject icon-svg icon-svg-sm text-primary mx-auto me-3" alt="" />
+            <div class="d-flex align-items-center">
+              <div class="me-3">
+                <img src="./web/img/icons/lineal/check.svg" class="svg-inject icon-svg icon-svg-sm text-primary" alt="Check Icon" />
               </div>
               <div>
-                <h3 class="counter mb-0 text-nowrap">200+</h3>
-                <h4 class="fs-14 lh-sm mb-0 text-nowrap text-grey">Projects Done</h4>
+                <h3 class="counter mb-0 text-secondary">200+</h3>
+                <h4 class="fs-14 lh-sm mb-0 text-muted">Projects Done</h4>
               </div>
             </div>
           </div>
-          <!--/.card-body -->
         </div>
-        <!--/.card -->
       </div>
-      <!--/column -->
+
+      <!-- Text Content Section -->
       <div class="col-lg-6 offset-lg-1 col-xxl-5 text-center text-lg-start" data-cues="slideInDown" data-group="page-title" data-delay="600">
-        <h1 class="display-1 mb-5 text-white">Hi, I'm Cahyo Saputro</h1>
-        <p class="lead fs-18 lh-sm mb-7 px-md-10 px-lg-0 text-white">A Senior Full stack developer with over 7 years of experience and more than 200 projects under my belt. I am curious and open-minded, always eager to learn and adapt to new technologies. With a background in web services & programming. I have successfully completed more than 200+ projects utilizing the latest technologies such as Laravel, VueJs, ExpressJs, NextJs, and NuxtJs. I am ready to collaborate with you!.</p>
-        <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-          <span><a href="https://api.whatsapp.com/send/?phone=6285740322375" target="_blank" class="btn btn-lg btn-green-cahyo rounded-pill me-2">Whatsapp </a></span>
-          
-          <span><a href="https://www.upwork.com/freelancers/~01a593edbb46b2e4d1" target="_blank" class="btn btn-lg btn-outline-white rounded-pill">Upwork</a></span>
+        <h1 class="display-1 mb-5 text-white">Hi, I'm Muhamad Eko Alfianto</h1>
+        <p class="lead fs-18 lh-sm mb-7 px-md-10 px-lg-0 text-light">
+          A senior full-stack developer with over 7 years of experience, delivering over 200 successful projects independently and as part of a team. Passionate about exploring new technologies and aligning with client expectations, my expertise in web development and security enables me to create scalable, effective solutions tailored to your needs.
+        </p>
+        <div class="d-flex justify-content-center justify-content-lg-start gap-3" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+          <a href="https://api.whatsapp.com/send/?phone=6286866912788" target="_blank" class="btn btn-lg btn-outline-white rounded-pill">
+            WhatsApp
+          </a>
+          <a href="https://www.upwork.com/freelancers/~018545f2a9998ff319" target="_blank" class="btn btn-lg btn-outline-white rounded-pill">
+            Upwork
+          </a>
         </div>
       </div>
-      <!--/column -->
+
     </div>
-    <!-- /.row -->
   </div>
-  <!-- /.container -->
 </section>
+
 <!-- /section -->
 
 <section class="wrapper bg-light">
@@ -56,56 +63,49 @@
       <div class="shape rounded-circle bg-soft-blue rellax w-16 h-16" data-rellax-speed="1" style="bottom: -0.5rem; right: -2.2rem; z-index: 0;"></div>
       <div class="shape bg-dot yellow rellax w-16 h-17" data-rellax-speed="1" style="top: -0.5rem; left: -2.5rem; z-index: 0;"></div>
       <div class="row gx-md-5 gy-5 text-center">
-        <!--/column -->
-        <div class="col-md-6 col-xl-3">
-          <div class="card shadow-lg ">
-            <div class="card-body ">
-              <img src="./web/img/icons/lineal/menu.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+        
+        <div class="col-md-6 col-xl-3 d-flex">
+          <div class="card shadow-lg w-100 d-flex flex-column" style="min-height: 300px;">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <img src="./web/img/icons/lineal/menu.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="Laravel Development Icon" />
               <h4>Laravel Development</h4>
               <p class="mb-2">I have more than 7+ years of experience in Laravel technologies, skilled in developing responsive and interactive web applications.</p>
             </div>
-            <!--/.card-body -->
           </div>
-          <!--/.card -->
         </div>
-        <!--/column -->
-        <div class="col-md-6 col-xl-3 ">
-          <div class="card shadow-lg bg-blue-cahyo">
-            <div class="card-body">
-              <img src="./web/img/icons/lineal/browser.svg" class="svg-inject icon-svg icon-svg-sm text-white  mb-3" alt="" />
+    
+        <div class="col-md-6 col-xl-3 d-flex">
+          <div class="card shadow-lg bg-blue-card w-100 d-flex flex-column" style="min-height: 300px;">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <img src="./web/img/icons/lineal/browser.svg" class="svg-inject icon-svg icon-svg-sm text-white mb-3" alt="VueJS Development Icon" />
               <h4 class="text-white">VueJS Development</h4>
-              <p class="mb-2 text-white">I have deep experience in software development with the platform Vue.js, also  Express.js, React, and Node.js.</p>
+              <p class="mb-2 text-white">I have deep experience in software development with the platform Vue.js, also Express.js, React, and Node.js.</p>
             </div>
-            <!--/.card-body -->
           </div>
-          <!--/.card -->
         </div>
-        <div class="col-md-6 col-xl-3">
-          <div class="card shadow-lg">
-            <div class="card-body">
-              <img src="./web/img/icons/lineal/analytics.svg" class="svg-inject icon-svg icon-svg-sm text-primary mb-3" alt="" />
+    
+        <div class="col-md-6 col-xl-3 d-flex">
+          <div class="card shadow-lg w-100 d-flex flex-column" style="min-height: 300px;">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <img src="./web/img/icons/lineal/analytics.svg" class="svg-inject icon-svg icon-svg-sm text-primary mb-3" alt="Wordpress Development Icon" />
               <h4>Wordpress Development</h4>
               <p class="mb-2">I have experience with WordPress using Elementor, creating custom templates, converting HTML to WordPress, and developing plugins.</p>
             </div>
-            <!--/.card-body -->
           </div>
-          <!--/.card -->
         </div>
-        <div class="col-md-6 col-xl-3">
-          <div class="card shadow-lg bg-blue-cahyo">
-            <div class="card-body">
-              <img src="./web/img/icons/lineal/web.svg" class="svg-inject icon-svg icon-svg-sm text-primary mb-3" alt="" />
-              <h4 class='text-white'>Restful API Development</h4>
+    
+        <div class="col-md-6 col-xl-3 d-flex">
+          <div class="card shadow-lg bg-blue-card w-100 d-flex flex-column" style="min-height: 300px;">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <img src="./web/img/icons/lineal/web.svg" class="svg-inject icon-svg icon-svg-sm text-primary mb-3" alt="Restful API Development Icon" />
+              <h4 class="text-white">Restful API Development</h4>
               <p class="mb-2 text-white">Experienced in Restful Development skilled in crafting custom web applications, seamless integration of functionalities, and third-party API integration.</p>
             </div>
-            <!--/.card-body -->
           </div>
-          <!--/.card -->
         </div>
-        <!--/column -->
+    
       </div>
-      <!--/.row -->
-    </div>
+    </div>      
     <!-- /.position-relative -->
   </div>
   <!-- /.container -->
@@ -118,35 +118,25 @@
       <div class="col-lg-5 mx-auto">
         <h2 class="display-2 mb-3">My Experiences</h2>
         <p class="lead fs-24 pe-xxl-8">I've had the pleasure to work with companies across a variety of industries. I am curious and open-minded, always eager to learn and adapt to new technologies</p>
-        <a href="{{route('web.portofolio')}}" class="btn btn-primary-cahyo btn-icon btn-icon-end mt-2">See Portofolio<i class="uil uil-arrow-up-right"></i></a>
+        <a href="{{route('web.portofolio')}}" class="btn btn-blue-eko btn-icon btn-icon-end mt-2">See Portofolio<i class="uil uil-arrow-up-right"></i></a>
       </div>
       <!--/column -->
       <div class="col-lg-7">
         <ul class="timeline">
           <li class="timeline-item">
-            <div class="timeline-info meta fs-14">September 2024 - Present</div>
+            <div class="timeline-info meta fs-14">October 2021 - September 2024</div>
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <h3 class="timeline-title">Full Time Freelance</h3>
-              <p>As a Full-Time Freelance Full Stack Developer, I dedicate myself to delivering comprehensive solutions across the entire stack, leveraging my expertise and experience to meet project requirements efficiently and effectively.</p>
+              <h3 class="timeline-title">Senior Full Stack Developer | Nine Dragon Labs</h3>
+              <p>Ninedragonlabs was founded 8 years ago, serving dozens of clients in more than 5 countries around the world. Trusted by developing companies and has a team with superior competence in the fields of front-end, back-end, UI/UX Design, Technology consultants, and Blockchain (smart contract) Developers.</p>
             </div>
           </li>
           <li class="timeline-item">
-            <div class="timeline-info meta fs-14">Jan 2023 - Jul 2024</div>
+            <div class="timeline-info meta fs-14">January 2017 - August 2021</div>
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <h3 class="timeline-title">Head Of Programmer</h3>
-              <h4 class="timeline-title">Ministry of Agrarian Affairs and Spatial Planning/National Land Agency</h4>
-              <p>I build app & internal administration system as remote programmer (freelancer) specified in Purworejo Regency and Semarang Regency</p>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-info meta fs-14">Jun 2019 - Dec 2022</div>
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <h3 class="timeline-title">Senior Stack Developer</h3>
-              <h4 class="timeline-title">Nine Dragon Labs</h4>
-              <p>Ninedragonlabs was founded 6 years ago, serving dozens of clients in more than 5 countries around the world. Trusted by developing companies and has a team with superior competence in the fields of front-end, back-end, UI/UX Design, Technology consultants, and Blockchain (smart contract) Developers.</p>
+              <h3 class="timeline-title">Full Stack Developer | Inowtech</h3>
+              <p>Inowtech (Inow Technology) is a digital company engaged in technology development, research development and digitization for agencies, careers and MSME businesses.</p>
             </div>
           </li>
         </ul>
@@ -277,7 +267,7 @@
                         <div class="card-body">
                            <span class="ratings five mb-3"></span>
                             <blockquote class="icon mb-0">
-                            <p>“Working with Cahyo Saputro was amazing. Not only did they fulfill the task, he challenged the requirements and got improvements. Every time there was a new requirement.”</p>
+                            <p>“Working with Muhamad Eko Alfianto was amazing. Not only did they fulfill the task, he challenged the requirements and got improvements. Every time there was a new requirement.”</p>
                             <div class="blockquote-details">
                                 <img class="rounded-circle w-12" src="./web/img/avatars/risdyono.jpg" srcset="./web/img/avatars/risdyono.jpg" alt="" />
                                 <div class="info">
